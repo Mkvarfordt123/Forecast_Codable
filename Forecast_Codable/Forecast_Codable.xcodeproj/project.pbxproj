@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F411B92A42426B00947C1F /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F411B82A42426B00947C1F /* Day.swift */; };
+		14F411BC2A424B0400947C1F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F411BB2A424B0400947C1F /* NetworkController.swift */; };
 		413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70627B0DA1C00461FE3 /* AppDelegate.swift */; };
 		413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */; };
 		413CA70E27B0DA1C00461FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413CA70C27B0DA1C00461FE3 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14F411B82A42426B00947C1F /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		14F411BB2A424B0400947C1F /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		413CA70327B0DA1C00461FE3 /* Forecast_Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forecast_Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413CA70627B0DA1C00461FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413CA70827B0DA1C00461FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14F411BA2A424ADE00947C1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14F411B82A42426B00947C1F /* Day.swift */,
+				14F411BB2A424B0400947C1F /* NetworkController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		413CA6FA27B0DA1C00461FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 				413CA71A27B0DA5600461FE3 /* Supporting Files */,
 				413CA70C27B0DA1C00461FE3 /* Main.storyboard */,
 				413CA71127B0DA1F00461FE3 /* LaunchScreen.storyboard */,
+				14F411BA2A424ADE00947C1F /* Controllers */,
 			);
 			path = Forecast_Codable;
 			sourceTree = "<group>";
@@ -159,7 +173,9 @@
 			files = (
 				413CA70727B0DA1C00461FE3 /* AppDelegate.swift in Sources */,
 				413CA72327B0DC4300461FE3 /* DayDetailsViewController.swift in Sources */,
+				14F411BC2A424B0400947C1F /* NetworkController.swift in Sources */,
 				413CA70927B0DA1C00461FE3 /* SceneDelegate.swift in Sources */,
+				14F411B92A42426B00947C1F /* Day.swift in Sources */,
 				413CA72527B0DC7E00461FE3 /* DayForcastTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
